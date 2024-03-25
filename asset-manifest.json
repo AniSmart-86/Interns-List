@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Interns-List/static/css/main.faa79d27.css",
+    "main.js": "/Interns-List/static/js/main.78c38e60.js",
+    "static/js/453.c886fa36.chunk.js": "/Interns-List/static/js/453.c886fa36.chunk.js",
+    "static/media/Ani.jpg": "/Interns-List/static/media/Ani.b63f51bf71b6ec705d54.jpg",
+    "static/media/chudy (8).jpg": "/Interns-List/static/media/chudy (8).6cca739aae3aeb872e26.jpg",
+    "static/media/chudy (5).jpg": "/Interns-List/static/media/chudy (5).fced092e08f1dbeb9379.jpg",
+    "static/media/chudy (3).jpg": "/Interns-List/static/media/chudy (3).3d4b22ab4fefed37893c.jpg",
+    "static/media/chudy (4).jpg": "/Interns-List/static/media/chudy (4).9c7a947db06e006c79b5.jpg",
+    "static/media/chudy (2).jpg": "/Interns-List/static/media/chudy (2).4ceab55e526140c2facf.jpg",
+    "static/media/chudy (1).jpg": "/Interns-List/static/media/chudy (1).6f7920ebaccc2ee34372.jpg",
+    "static/media/nazzy.jpg": "/Interns-List/static/media/nazzy.41c9c9b6f63c3385813d.jpg",
+    "static/media/chudy (7).jpg": "/Interns-List/static/media/chudy (7).f93645d789f6f947cb1e.jpg",
+    "static/media/chudy (9).jpg": "/Interns-List/static/media/chudy (9).eea60dbaa7bb8ffd115e.jpg",
+    "static/media/logo.svg": "/Interns-List/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Interns-List/index.html",
+    "main.faa79d27.css.map": "/Interns-List/static/css/main.faa79d27.css.map",
+    "main.78c38e60.js.map": "/Interns-List/static/js/main.78c38e60.js.map",
+    "453.c886fa36.chunk.js.map": "/Interns-List/static/js/453.c886fa36.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.faa79d27.css",
+    "static/js/main.78c38e60.js"
+  ]
+}
