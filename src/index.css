@@ -1,13 +1,119 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  font-family: 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+background-color: #fff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+::-webkit-scrollbar{
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #fff;
+  border-radius: 10px;
+}
+
+.interns-container{
+  position:  fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  max-width: 300px;
+  height: 100%;
+  background: #754bb7;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 400px; */
+  padding: 40px 30px 70px;
+  border-radius: 10px;
+  z-index: 100px;
+  cursor: pointer;
+}
+
+.scroll{
+  overflow: auto;
+}
+
+.interns-container h1{
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.intern-details img{
+  width: 180px;
+  height: 150px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.intern-card img{
+  width: 40px;
+  height: 45px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.intern-details{
+  position: relative;
+  width: calc(100% - 300px);
+  max-width: 400px;
+  min-height: 30vh;
+  left: 300px;
+  /* background: #d9c8f3; */
+  margin-left: 200px;
+  border: 2px solid #462d6e;
+  border-radius: 50px;
+  padding: 40px 30px 70px;
+  text-align: center;
+}
+
+.internsWrapper{
+  align-items: center;
+   /* margin: 100px auto 20px; */
+  padding: 40px;
+}
+
+.intern-details .cancel-img {
+  width: 30px;
+  height: 30px;
+ 
+}
+
+.cancel{
+  position: relative;
+  display: inline-block;
+  left: 280px;
+  top: -150px;
+  /* z-index: 100px; */
+  margin-bottom: 40px;
+  margin-top: 20px;
+  padding: 12px;
+}
+
+
+
+@media (max-width: 700px){
+
+
+
+  .intern-details{
+    /* position: relative; */
+  margin: 0;
+  background: #fff;
+  /* right: -300px; */
+left: 0;
+top: 0;
+  width: 250px;
+  height: 80vh;
+}
 }
